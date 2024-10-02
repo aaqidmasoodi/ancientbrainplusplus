@@ -1,12 +1,9 @@
-body {
-    background-color: #f0f0f0;
-  }
-  .main-content {
-    width: 80%;
-    margin: 0 auto;
-  }
-
-#threecanvas {
-    display: none;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box !important;
 }
 
+#threecanvas {
+    display: none !important;
+}

@@ -4,20 +4,25 @@
     "version": "1.0",
     "description": "Modifies the layout of AncientBrain",
     "icons": {
-    "16": "icon/icon16.png",
-    "48": "icon/icon48.png",
-    "128": "icon/icon128.png"
-    },    
+        "16": "icon/icon16.png",
+        "48": "icon/icon48.png",
+        "128": "icon/icon128.png"
+    },
     "permissions": ["activeTab", "scripting"],
     "background": {
-      "service_worker": "background.js"
+        "service_worker": "background.js"
     },
     "content_scripts": [
-      {
-        "matches": ["*://ancientbrain.com/*"],
-        "js": ["content.js"],
-        "css": ["styles.css"]
-      }
+        {
+            "matches": ["*://ancientbrain.com/*"],
+            "js": ["content.js"],
+            "css": ["styles.css"]
+        }
+    ],
+    "web_accessible_resources": [
+        {
+            "resources": ["styles.css"],
+            "matches": ["*://ancientbrain.com/*"]
+        }
     ]
-  }
-  
+}
