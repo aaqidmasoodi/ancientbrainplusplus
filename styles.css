@@ -1,0 +1,12 @@
+body {
+    background-color: #f0f0f0;
+  }
+  .main-content {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+#threecanvas {
+    display: none;
+}
+
