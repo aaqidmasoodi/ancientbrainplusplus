@@ -4,6 +4,26 @@
     box-sizing: border-box !important;
 }
 
+
+body {
+    background-image: none !important;
+    background-color: white !important;
+}
+
+/* HIDING THE ANNOYING DRAG THE BACKGROUND */
 #threecanvas {
     display: none !important;
+}
+
+.bigthrob {
+    background-color: black !important;
+    color: aliceblue;
+    border-radius: 0px !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+.bigthrob:hover {
+    box-shadow: none !important;
+    background-color: teal !important;
 }
