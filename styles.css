@@ -5,9 +5,20 @@
 }
 
 
-body {
-    background-image: none !important;
-    background-color: white !important;
+
+#headerbox {
+    background-color: #1f1f1f !important;
+
+}
+
+#threepage {
+    background-color: #1f1f1f !important;
+}
+
+
+.threebox * {
+    background-color: #1f1f1f !important;
+    color: #efefef !important;
 }
 
 /* HIDING THE ANNOYING DRAG THE BACKGROUND */
@@ -26,4 +37,46 @@ body {
 .bigthrob:hover {
     box-shadow: none !important;
     background-color: teal !important;
+}
+
+/* EDITOR */
+#editor {
+    background-color: #1f1f1f;
+    color: #efefef;
+}
+
+.ace_gutter .ace_layer {
+    background-color: #505050;
+}
+
+.editpagebox {
+    background-color: #1f1f1f !important;
+    color: #efefef !important;
+}
+
+.editpagebox a {
+    color: #efefef;
+}
+
+#worldtitlespan {
+    color: teal;
+}
+
+
+/* HIDING BACKGROUND CONTROL BOX */
+
+#controlsbox {
+    display: none;
+}
+
+.logo-text a {
+    color: #efefef;
+}
+
+[title="Ancient Brain home"] {
+    color: white !important;
+}
+
+[title="My home page"] {
+    color: white !important;
 }
